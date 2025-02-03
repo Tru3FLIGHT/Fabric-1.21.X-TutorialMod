@@ -3,15 +3,15 @@
 	"id": "tutorialmod",
 	"version": "${version}",
 	"name": "Tutorial Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a tutorial mod",
 	"authors": [
-		"Me!"
+		"Tru3FLIGHT"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/Tru3FLIGHT",
+		"sources": "https://github.com/Tru3FLIGHT/Fabric-1.21.X-TutorialMod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/tutorialmod/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.tru3flight.tutorialmod.TutorialModDataGenerator"
+		],
+		"client" : [
+			"com.tru3flight.tutorialmod.TutorialModClient"
 		]
 	},
 	"mixins": [
