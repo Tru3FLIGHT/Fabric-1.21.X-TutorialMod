@@ -1,6 +1,7 @@
 package com.tru3flight.tutorialmod;
 
 import com.tru3flight.tutorialmod.block.ModBlocks;
+import com.tru3flight.tutorialmod.item.ModItemGroups;
 import com.tru3flight.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,5 +16,6 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModItemGroups.registerItemGroups();
 	}
 }
