@@ -4,6 +4,7 @@ import com.tru3flight.tutorialmod.block.ModBlocks;
 import com.tru3flight.tutorialmod.component.ModDataComponentTypes;
 import com.tru3flight.tutorialmod.item.ModItemGroups;
 import com.tru3flight.tutorialmod.item.ModItems;
+import com.tru3flight.tutorialmod.sound.ModSounds;
 import com.tru3flight.tutorialmod.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
@@ -26,6 +27,7 @@ public class TutorialMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+		ModSounds.registerSounds();
 
 		ModDataComponentTypes.registerDataCompoenentTypes();
 

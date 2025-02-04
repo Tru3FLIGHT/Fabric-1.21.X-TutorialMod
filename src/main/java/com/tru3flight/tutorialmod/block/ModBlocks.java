@@ -3,6 +3,7 @@ package com.tru3flight.tutorialmod.block;
 import com.tru3flight.tutorialmod.TutorialMod;
 import com.tru3flight.tutorialmod.block.custom.MagicBlock;
 import com.tru3flight.tutorialmod.block.custom.PinkGarnetLampBlock;
+import com.tru3flight.tutorialmod.sound.ModSounds;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
@@ -35,9 +36,11 @@ public class ModBlocks {
                     .requiresTool()
                     .sounds(BlockSoundGroup.DEEPSLATE)));
 
-    public static final Block MAGIC_BLOCK = registerBlock("magic_block", new MagicBlock(AbstractBlock.Settings.create()
-            .strength(1)
-            .requiresTool()));
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create()
+                    .strength(1)
+                    .requiresTool()
+                    .sounds(ModSounds.MAGIC_BLOCK_SOUNDS)));
 
     public static final Block PINK_GARNET_STAIRS = registerBlock("pink_garnet_stairs",
             new StairsBlock(ModBlocks.PINK_GARNET_BLOCK.getDefaultState(),
