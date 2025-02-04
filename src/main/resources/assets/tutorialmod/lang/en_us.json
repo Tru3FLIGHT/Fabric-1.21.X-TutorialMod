@@ -2,6 +2,8 @@
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
   "block.tutorialmod.magic_block": "Magic Block",
+  "item.tutorialmod.cauliflower": "Cauliflower",
+  "item.tutorialmod.starlight_ashes": "Starlight Ashes",
 
   "item.tutorialmod.chisel": "Chisel",
   "item.tutorialmod.pink_garnet": "Pink Garnet",
@@ -11,6 +13,10 @@
   "block.tutorialmod.raw_pink_garnet_block": "Raw Pink Garnet Block",
 
   "itemgroup.tutorialmod.pink_garnet_items" : "Pink Garnet Items",
-  "itemgroup.tutorialmod.pink_garnet_blocks" : "Pink Garnet Blocks"
+  "itemgroup.tutorialmod.pink_garnet_blocks" : "Pink Garnet Blocks",
 
+  "tooltip.tutorialmod.magic_block.tooltip": "This Block is Very Very §9Magical§r",
+  "tooltip.tutorialmod.chisel.shift_down" : "Chisels Blocks into bricks",
+  "tooltip.tutorialmod.chisel" : "Press §eShift§r for more information",
+  "tooltip.tutorialmod.cauliflower.tooltip" : "For numming on Lowkey"
 }
