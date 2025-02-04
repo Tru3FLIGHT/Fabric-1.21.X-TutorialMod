@@ -155,5 +155,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(recipeExporter);
 
         offerSlabRecipe(recipeExporter,RecipeCategory.BUILDING_BLOCKS,ModBlocks.PINK_GARNET_SLAB,ModBlocks.PINK_GARNET_BLOCK);
+
+        offerSmithingTrimRecipe(recipeExporter, ModItems.KAUPEN_SMITHING_TEMPLATE, Identifier.of(TutorialMod.MOD_ID, "kaupen"));
     }
 }

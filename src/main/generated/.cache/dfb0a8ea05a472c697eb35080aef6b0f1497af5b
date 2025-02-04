@@ -1,4 +1,4 @@
-// 1.21.1	2025-02-04T12:48:05.8221503	Tutorial Mod/Recipes
+// 1.21.1	2025-02-04T13:31:27.9636174	Tutorial Mod/Recipes
 4f35c270edd15d7b7b159db2478525262759c9a3 data\tutorialmod\advancement\recipes\decorations\pink_garnet_fence.json
 a15b4b4e72a94294fa958a6a7d7d707c46116f2b data\tutorialmod\advancement\recipes\redstone\pink_garnet_fence_gate.json
 3b4a664577d08717ac5bc35a1c3d98f92df337f3 data\tutorialmod\recipe\raw_pink_garnet_from_magic_block.json
@@ -34,9 +34,11 @@ ddcd5ef699cfc51237125286a55c26fbd514dd35 data\tutorialmod\recipe\pink_garnet_fro
 20ff29d6747251dc88039514f13ddbba87406ae1 data\tutorialmod\recipe\raw_pink_garnet_block.json
 f9a2d437c934c757199fa262671feb1e5bbedebc data\tutorialmod\recipe\pink_garnet_from_smelting_pink_garnet_ore.json
 e9cf4d7d4c8234aebdd62a5b64df7af9cdcd5172 data\tutorialmod\advancement\recipes\redstone\pink_garnet_button.json
+d217172031c6e0e57ffb4794675db0dc37f1d73f data\tutorialmod\recipe\kaupen.json
 362fd4a556555575c590e1e4258890acabb1e890 data\tutorialmod\recipe\pink_garnet_fence.json
 e1260b4092b73ab781af34acf4c2e8827ff85e45 data\tutorialmod\recipe\raw_pink_garnet.json
 815842d8a54db2bf2790d059952bad7d979b3a19 data\tutorialmod\recipe\pink_garnet.json
+47a7c4ad671425a4c3ad4ced463e5ec11f22b36a data\tutorialmod\advancement\recipes\misc\kaupen.json
 7c14c9bda8fdd83530518afb87fcc225a40a629c data\tutorialmod\recipe\pink_garnet_boots.json
 446b9dd3ffa10e35305cea2352e714a76cd1c770 data\tutorialmod\recipe\pink_garnet_pressure_plate.json
 058b5dc5744c819aa77ffe1b711001fb9dec821d data\tutorialmod\recipe\pink_garnet_door.json
