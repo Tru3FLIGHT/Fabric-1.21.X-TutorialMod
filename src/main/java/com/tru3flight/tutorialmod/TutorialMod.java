@@ -2,19 +2,24 @@ package com.tru3flight.tutorialmod;
 
 import com.tru3flight.tutorialmod.block.ModBlocks;
 import com.tru3flight.tutorialmod.component.ModDataComponentTypes;
+import com.tru3flight.tutorialmod.effect.ModEffects;
 import com.tru3flight.tutorialmod.item.ModItemGroups;
 import com.tru3flight.tutorialmod.item.ModItems;
+import com.tru3flight.tutorialmod.potion.ModPotions;
 import com.tru3flight.tutorialmod.sound.ModSounds;
 import com.tru3flight.tutorialmod.util.HammerUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
+import net.fabricmc.fabric.api.registry.FabricBrewingRecipeRegistryBuilder;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.passive.SheepEntity;
+import net.minecraft.item.Item;
 import net.minecraft.item.Items;
+import net.minecraft.potion.Potions;
 import net.minecraft.text.Text;
 import net.minecraft.util.ActionResult;
 import org.slf4j.Logger;
@@ -28,6 +33,8 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModSounds.registerSounds();
+		ModEffects.registerEffects();
+		ModPotions.registerPotions();
 
 		ModDataComponentTypes.registerDataCompoenentTypes();
 
@@ -46,5 +53,9 @@ public class TutorialMod implements ModInitializer {
 			}
 			return ActionResult.PASS;
 		}));
+
+		FabricBrewingRecipeRegistryBuilder.BUILD.register(builder -> {
+			builder.registerPotionRecipe(Potions.AWKWARD, Items.SLIME_BALL, ModPotions.SLIMEY_POTION);
+		});
 	}
 }
