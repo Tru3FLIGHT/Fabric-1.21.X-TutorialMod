@@ -20,7 +20,6 @@ import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.entity.passive.SheepEntity;
-import net.minecraft.item.Item;
 import net.minecraft.item.Items;
 import net.minecraft.potion.Potions;
 import net.minecraft.text.Text;
@@ -42,7 +41,7 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModEnchantmentEffects.registerEnchantmentEffects();
-		ModWorldGeneration.generateModdedWorldgen();
+		ModWorldGeneration.generateModdedWorldGen();
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_AHSES, 600);
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 		AttackEntityCallback.EVENT.register(((playerEntity, world, hand, entity, entityHitResult) -> {
