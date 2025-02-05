@@ -1,6 +1,7 @@
 package com.tru3flight.tutorialmod;
 
 import com.tru3flight.tutorialmod.datagen.*;
+import com.tru3flight.tutorialmod.enchantment.ModEnchantments;
 import com.tru3flight.tutorialmod.trim.ModTrimMaterials;
 import com.tru3flight.tutorialmod.trim.ModTrimPatterns;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -25,5 +26,6 @@ public class TutorialModDataGenerator implements DataGeneratorEntrypoint {
 	public void buildRegistry(RegistryBuilder registryBuilder) {
 		registryBuilder.addRegistry(RegistryKeys.TRIM_MATERIAL, ModTrimMaterials::bootstrap);
 		registryBuilder.addRegistry(RegistryKeys.TRIM_PATTERN, ModTrimPatterns::bootstrap);
+		registryBuilder.addRegistry(RegistryKeys.ENCHANTMENT, ModEnchantments::bootstrap);
 	}
 }

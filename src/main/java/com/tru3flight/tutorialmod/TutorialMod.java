@@ -3,6 +3,7 @@ package com.tru3flight.tutorialmod;
 import com.tru3flight.tutorialmod.block.ModBlocks;
 import com.tru3flight.tutorialmod.component.ModDataComponentTypes;
 import com.tru3flight.tutorialmod.effect.ModEffects;
+import com.tru3flight.tutorialmod.enchantment.ModEnchantmentEffects;
 import com.tru3flight.tutorialmod.item.ModItemGroups;
 import com.tru3flight.tutorialmod.item.ModItems;
 import com.tru3flight.tutorialmod.potion.ModPotions;
@@ -35,11 +36,10 @@ public class TutorialMod implements ModInitializer {
 		ModSounds.registerSounds();
 		ModEffects.registerEffects();
 		ModPotions.registerPotions();
-
 		ModDataComponentTypes.registerDataCompoenentTypes();
-
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModEnchantmentEffects.registerEnchantmentEffects();
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_AHSES, 600);
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 		AttackEntityCallback.EVENT.register(((playerEntity, world, hand, entity, entityHitResult) -> {
