@@ -9,6 +9,7 @@ import com.tru3flight.tutorialmod.item.ModItems;
 import com.tru3flight.tutorialmod.potion.ModPotions;
 import com.tru3flight.tutorialmod.sound.ModSounds;
 import com.tru3flight.tutorialmod.util.HammerUsageEvent;
+import com.tru3flight.tutorialmod.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
@@ -41,6 +42,7 @@ public class TutorialMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModEnchantmentEffects.registerEnchantmentEffects();
+		ModWorldGeneration.generateModdedWorldgen();
 		FuelRegistry.INSTANCE.add(ModItems.STARLIGHT_AHSES, 600);
 		PlayerBlockBreakEvents.BEFORE.register(new HammerUsageEvent());
 		AttackEntityCallback.EVENT.register(((playerEntity, world, hand, entity, entityHitResult) -> {
