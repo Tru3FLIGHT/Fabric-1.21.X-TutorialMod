@@ -2,6 +2,7 @@ package com.tru3flight.tutorialmod.block;
 
 import com.tru3flight.tutorialmod.TutorialMod;
 import com.tru3flight.tutorialmod.block.custom.CauliflowerCropBlock;
+import com.tru3flight.tutorialmod.block.custom.HoneyBerryBushBlock;
 import com.tru3flight.tutorialmod.block.custom.MagicBlock;
 import com.tru3flight.tutorialmod.block.custom.PinkGarnetLampBlock;
 import com.tru3flight.tutorialmod.sound.ModSounds;
@@ -75,6 +76,9 @@ public class ModBlocks {
             new CauliflowerCropBlock(AbstractBlock.Settings.create().noCollision()
                     .ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP).pistonBehavior(PistonBehavior.DESTROY)
                     .mapColor(MapColor.DARK_GREEN)));
+
+    public static final Block HONEY_BERRY_BUSH = registerBlockWithoutBlockItem("honey_berry_bush",
+            new HoneyBerryBushBlock(AbstractBlock.Settings.copy(Blocks.SWEET_BERRY_BUSH)));
 
     private static Block registerBlockWithoutBlockItem(String name,Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(TutorialMod.MOD_ID, name), block);
