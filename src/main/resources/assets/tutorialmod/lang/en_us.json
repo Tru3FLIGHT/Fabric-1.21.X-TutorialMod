@@ -3,6 +3,8 @@
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
   "block.tutorialmod.magic_block": "Magic Block",
   "item.tutorialmod.cauliflower": "Cauliflower",
+  "item.tutorialmod.cauliflower_seeds": "Cauliflower Seeds",
+  "block.tutorialmod.cauliflower_crop": "Cauliflower Crop",
   "item.tutorialmod.starlight_ashes": "Starlight Ashes",
 
   "item.tutorialmod.chisel": "Chisel",
@@ -16,6 +18,7 @@
   "item.minecraft.potion.effect.slimey_potion": "Slimey Potion",
   "item.minecraft.splash_potion.effect.slimey_potion": "Slimey Splash Potion",
   "item.minecraft.lingering_potion.effect.slimey_potion": "Slimey Lingering Potion",
+
 
 
 

@@ -1,6 +1,7 @@
 package com.tru3flight.tutorialmod.item;
 
 import com.tru3flight.tutorialmod.TutorialMod;
+import com.tru3flight.tutorialmod.block.ModBlocks;
 import com.tru3flight.tutorialmod.item.custom.ChiselItem;
 import com.tru3flight.tutorialmod.item.custom.HammerItem;
 import com.tru3flight.tutorialmod.item.custom.ModArmorItem;
@@ -72,6 +73,9 @@ public class ModItems {
 
     public static final Item KAUPEN_BOW = registerItem("kaupen_bow",
             new BowItem(new Item.Settings().maxDamage(500)));
+
+    public static final Item CAULIFLOWER_SEEDS = registerItem("cauliflower_seeds",
+            new AliasedBlockItem(ModBlocks.CAULIFLOWER_CROP, new Item.Settings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(TutorialMod.MOD_ID,name), item);
