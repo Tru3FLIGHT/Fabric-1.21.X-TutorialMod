@@ -51,7 +51,7 @@ public class ModConfiguredFeatures {
 
         register(context, DRIFTWOOD_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.DRIFTWOOD_LOG),
-                new StraightTrunkPlacer(4,2,2),
+                new StraightTrunkPlacer(6,2,2),
                 BlockStateProvider.of(ModBlocks.DRIFTWOOD_LEAVES),
                 new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(0), 3),
                 new TwoLayersFeatureSize(1,0,2)).build());

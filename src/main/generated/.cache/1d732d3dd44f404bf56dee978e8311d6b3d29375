@@ -1,5 +1,5 @@
-// 1.21.1	2025-02-05T16:35:23.0820688	Tutorial Mod/
-911a1d700faf79317be3b0c5d371c098b1b03c9f data\tutorialmod\worldgen\configured_feature\driftwood.json
+// 1.21.1	2025-02-05T17:27:52.5177018	Tutorial Mod/
+0c5f72a58a02dcaba708c2a9e3d93e0f3fa6b078 data\tutorialmod\worldgen\configured_feature\driftwood.json
 a248f3d2ed7262ab9e3ba1194d67ffd6b2e0d1cb data\tutorialmod\trim_pattern\kaupen.json
 71f703c1e3662cffcd2d53f12d3b63d3ca44d44c data\tutorialmod\worldgen\configured_feature\pink_garnet_ore.json
 544a27ff3f2ea5a6c00da529e7253f66e18fab7f data\tutorialmod\worldgen\placed_feature\end_pink_garnet_ore_placed.json
@@ -9,3 +9,4 @@ d611e722157e2a57c0295ddcf80d36f61245f5f7 data\tutorialmod\trim_material\pink_gar
 49b7301e34ddf925b7691873183712e13be0dab1 data\tutorialmod\worldgen\placed_feature\pink_garnet_ore_placed.json
 e336321ea1fc9ae816052f453ffa3778fbb65e51 data\tutorialmod\enchantment\lightning_striker.json
 90bf49d06bdcb32af98233288e5a6eeef8d80aa8 data\tutorialmod\worldgen\configured_feature\nether_pink_garnet_ore.json
+0f7ebea94a3e2b9c524868b159c8e9ace387ffa9 data\tutorialmod\worldgen\placed_feature\driftwood_placed.json
